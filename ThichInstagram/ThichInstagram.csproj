@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ThichInstagram</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net452</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InstagramApiSharp">
+      <HintPath>bin\Debug\net452\InstagramApiSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>bin\Debug\net452\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>bin\Debug\net452\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Http">
+      <HintPath>bin\Debug\net452\Http.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>bin\Debug\net452\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="DeviceId">
+      <HintPath>bin\Debug\net452\DeviceId.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>bin\Debug\net452\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="AE.Net.Mail">
+      <HintPath>bin\Debug\net452\AE.Net.Mail.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="xNet">
+      <HintPath>G:\Project F\xNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
